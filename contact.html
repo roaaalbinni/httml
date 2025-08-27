@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Wingo — Contact Us</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+  <header>
+    <h1 style="text-align: center;" >Contact Wingo</h1>
+     <nav>
+      <table  border="2" align="center"> <tr>
+       <td> <a href="index.html">Home</a> </td>
+        <td><a href="services.html">services</a> </td>
+        <td><a href="team.html">team</a> </td>
+         <td><a href="contact.html">contact</a></td>
+         </tr>
+     </table>   
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2 id="form">Contact Form</h2>
+      <form action="#" method="post" novalidate>
+        <fieldset>
+          <legend>Basic Information</legend>
+
+          <label for="fullname">Full Name (required):</label><br>
+          <input type="text" id="fullname" name="fullname" required placeholder="Enter your full name"><br><br>
+
+          <label for="email">Email (required):</label><br>
+          <input type="email" id="email" name="email" required placeholder="name@example.com"><br><br>
+
+          <label for="phone">Phone Number:</label><br>
+          <input type="tel" id="phone" name="phone" pattern="[0-9]{8,15}" placeholder="Example: 00963987654321"><br>
+          <small>Digits only, 8–15 numbers.</small><br><br>
+
+          <label for="city">City:</label><br>
+          <select id="city" name="city">
+            <option value="">Choose your city</option>
+            <option>Damascus</option>
+            <option>Aleppo</option>
+            <option>Homs</option>
+            <option>Hama</option>
+          </select><br><br>
+
+          <fieldset>
+            <legend>Gender</legend>
+            <label><input type="radio" name="gender" value="male"> Male</label>
+            <label><input type="radio" name="gender" value="female"> Female</label>
+            <label><input type="radio" name="gender" value="other"> Other</label>
+          </fieldset><br>
+
+          <label><input type="checkbox" id="terms" name="terms" required> I agree to the Terms</label><br><br>
+
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </fieldset>
+      </form>
+    </section>
+
+    <section>
+      <h2>Find Us</h2>
+      <p>Map (open in a new window):</p>
+      <a href="https://maps.app.goo.gl/6NBTQ9vAxEtUZ7d9A" target="_blank" rel="noopener noreferrer" title="Open map">
+        <img src="./assets/img/map.jpg" alt="Office Map" width="200" height="200">
+      </a>
+
+      <p>Social Media:</p>
+      <ul>
+        <li><a href="https://Instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+        <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Wingo Food Delivery — <a href="index.html">Back to Home</a></p>
+  </footer>
+</body>
+</html>
